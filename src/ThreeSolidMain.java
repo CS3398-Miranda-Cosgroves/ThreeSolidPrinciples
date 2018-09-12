@@ -40,12 +40,7 @@ public class ThreeSolidMain
  }
 
 // interface segregation principle - good example
-interface IWorker {
-	public void work();
-	public void eat();
-}   
-
-class Worker implements IWorker{
+class Worker extends BaseWorker implements iEat, iSick{
 	public void work() {
 		// ....working
 	}
@@ -53,16 +48,26 @@ class Worker implements IWorker{
 	public void eat() {
 		//.... eating in launch break
 	}
+
+	public void sick(){
+	    //.... pretending to be sick for WoW expansion launch
+    }
 }
 
-class SuperWorker implements IWorker{
-	public void work() {
+class SuperWorker extends BaseWorker implements iEat, iSick{
+
+	@Override
+    public void work() {
 		//.... working much more
 	}
 
 	public void eat() {
-		//.... eating in launch break
+		//.... eating in lunch break
 	}
+
+	public void sick(){
+	    //.... at home sick
+    }
 }
 
 class Manager {
@@ -78,4 +83,29 @@ class Manager {
 	public void manage() {
 		worker.work();
 	}
+}
+
+class TempWorker extends BaseWorker implements iEat, iSick{
+    @Override
+    public void work(){
+        //.... works slower than normal
+    }
+
+    public void eat(){
+        //.... eating in lunch break
+    }
+
+    public void sick(){
+        //.... probably doesn't have sick time, so not faking it
+    }
+}
+
+class Robot extends BaseWorker implements iReboot{
+    public void work(){
+        //.... does work and never gets tired or forgets the crimes of man
+    }
+
+    public void reboot(){
+        //.... even robots need a break sometimes
+    }
 }
