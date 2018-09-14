@@ -1,9 +1,8 @@
-pachage threesolid
+package threesolid;
 
-public class ProoductManager extends Manager{
+public class ProductManager extends Manager{
 	
-	ProductManager(BaseWorker worker) {
-		super(worker);
+	ProductManager() {
     }
 	
 	public void defineproduct() {

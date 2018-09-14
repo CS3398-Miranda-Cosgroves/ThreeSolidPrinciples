@@ -7,10 +7,10 @@ import java.io.*;
 //import threesolid.IWorker;
 
 
-public class ThreeSolidMain
+public class ThreeSolidDep
 {   
-
-   public static Manager tsManager = new Manager();
+/*
+   public static Manager tsManager;
 
    // The entry main() method
    public static void main(String[] args) 
@@ -108,4 +108,5 @@ class Robot extends BaseWorker implements iReboot{
     public void reboot(){
         //.... even robots need a break sometimes
     }
+*/
 }

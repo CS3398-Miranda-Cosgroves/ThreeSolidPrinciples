@@ -1,14 +1,14 @@
 package threesolid;
 
 public class ThreeSolidMain {
-    public static Manager tsManager = new Manager();
+    public static Manager tsManager;
 
     public ThreeSolidMain() {
         }
 
         public static void main(String[] var0) {
             try {
-                System.out.format("Starting ... \n");
+                System.out.format("Starting ... \n");				
             } catch (Exception var3) {
                 var3.printStackTrace();
             }

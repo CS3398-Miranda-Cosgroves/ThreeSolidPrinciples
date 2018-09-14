@@ -1,14 +1,12 @@
 package threesolid;
 
-public class Manager {
-
-	BaseWorker manager;
+public class Manager extends BaseWorker {
 	
-	Manager(BaseWorker worker) {
-		manager = worker;
+	Manager() {
     }
 	
-	public void manage(){
+	@Override
+	public void work(){
 		//managing
 	}
 	

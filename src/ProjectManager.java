@@ -1,9 +1,8 @@
-pachage threesolid
+package threesolid;
 
 public class ProjectManager extends Manager{
 	
-	ProjectManager(BaseWorker worker) {
-		super(worker);
+	ProjectManager() {
     }
 	
 	public void schedulework() {
