@@ -1,5 +1,8 @@
 package threesolid;
 
 public interface IEat {
-	void eat();
+	public void eat() {
+		System.out.format("Finally time to eat... \n"); 
+	}
+	
 }
