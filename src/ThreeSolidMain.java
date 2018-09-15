@@ -8,8 +8,7 @@ public class ThreeSolidMain {
 
         public static void main(String[] var0) {
             try {
-                System.out.format("Starting ... \n");				
-            } catch (Exception var3) {
+                System.out.format("Starting ... \n");	
                 Worker worker1 = new Worker();  //creates object of class Worker
             	Robot robot1 = new Robot();
             	SuperWorker superWorker1 = new SuperWorker();
@@ -31,6 +30,7 @@ public class ThreeSolidMain {
             	baseWorker1.sick();
             	robot1.reboot();
             	baseWorker1.reboot();
+            } catch (Exception var3) {
                 var3.printStackTrace();
             }
 
