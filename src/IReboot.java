@@ -1,5 +1,7 @@
 package threesolid;
 
 public interface IReboot {
-	void reboot();
+	public void reboot() {
+		System.out.format("Time to reboot... \n"); 
+	}
 }
