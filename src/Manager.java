@@ -1,12 +1,14 @@
 package threesolid;
 
-class Manager {
+class Manager extends BaseWorker {
 
-    Worker worker;
-
-    Manager() {
-    }
-
-    public void Manager() {
-    }
+	@Override
+	public void work(){
+		//managing
+		System.out.format("Manager class is in the work method... \n"); 
+	}
+	
+	public void manage(){
+		System.out.format("Manager class is in the manage method... \n"); 
+	}
 }
