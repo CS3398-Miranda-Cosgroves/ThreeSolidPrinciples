@@ -1,6 +1,6 @@
 package threesolid;
 
-public class Manager extends BaseWorker {
+public class Manager extends BaseWorker implements{
 	
 	Manager() {
     }
