@@ -1,17 +1,12 @@
 package threesolid;
 
-<<<<<<< HEAD
-public class Manager extends BaseWorker implements{
+public class Manager extends BaseWorker{
 	
 	Manager() {
     }
-	
-=======
-class Manager extends BaseWorker {
 
->>>>>>> 23bf9d976f13d09ff7f68d7c4f04576b8e4bfe40
-	@Override
-	public void work(){
+    @Override
+    public void work(){
 		//managing
 		System.out.format("Manager class is in the work method... \n"); 
 	}

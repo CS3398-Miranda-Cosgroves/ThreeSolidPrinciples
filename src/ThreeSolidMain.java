@@ -15,7 +15,7 @@ public class ThreeSolidMain {
             	ProjectManager projectManager1 = new ProjectManager();
             	ProductManager productManager1 = new ProductManager();
             	TempWorker tempWorker1 = new TempWorker();
-            	BaseWorker baseWorker1 = new BaseWorker():
+            	BaseWorker baseWorker1 = new BaseWorker();
             	
             	
             	projectManager1.schedulework();
@@ -26,10 +26,7 @@ public class ThreeSolidMain {
             	superWorker1.eat();
             	superWorker1.sick();
             	superWorker1.work();
-            	baseWorker1.eat();
-            	baseWorker1.sick();
             	robot1.reboot();
-            	baseWorker1.reboot();
             } catch (Exception var3) {
                 var3.printStackTrace();
             }
