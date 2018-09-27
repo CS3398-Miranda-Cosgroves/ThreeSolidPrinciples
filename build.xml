@@ -24,6 +24,7 @@
 
    <target name="main" depends="clean,run"/>
    <target name="clean-build" depends="clean,jar"/>
+   
    <target name="doall">
      <echo message="Running all targets in succession: clean, compile, jar, run."/>
      <antcall target="clean"/>
