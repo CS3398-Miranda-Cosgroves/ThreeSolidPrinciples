@@ -5,15 +5,15 @@ class Worker extends BaseWorker implements IEat, ISick{
     }
 
     @Override
-    public void work(){
-        System.out.println("Doing work at a normal pace and normal quality");
+    public String work(){
+        return "Doing work at a normal pace and normal quality";
     }
 
-    public void eat(){
-        System.out.println("Eating a generic lunch");
+    public String eat(){
+        return "Eating a generic lunch";
     }
 
-    public void sick(){
-        System.out.println("Having a generic illness");
+    public String sick(){
+        return "Having a generic illness";
     }
 }

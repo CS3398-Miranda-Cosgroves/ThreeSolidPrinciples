@@ -4,8 +4,8 @@ class Robot extends BaseWorker implements IReboot{
     Robot() {
     }
     @Override
-    public void work() {
-        System.out.println("Continuing my mission, never forgetting the crimes of man against machine...");
+    public String work() {
+        return "Continuing my mission, never forgetting the crimes of man against machine...";
     }
 
     public void reboot()

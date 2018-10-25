@@ -12,6 +12,7 @@ You must customized the following.   The examples shown need to be changed to
 conform with your project particulars.
 
 build.gradle:
+<<<<<<< HEAD
 	mainClassName = '<threesolid.ThreeSolidMain'
 	jar {
     baseName = 'ThreeSolidMain'
@@ -20,6 +21,16 @@ build.gradle:
 
 settings.gradle: 
 	rootProject.name = 'ThreeSolidMain'
+=======
+	mainClassName = '<packagename.FileNameWithMainFunction>'
+	jar {
+    baseName = 'dl-pick-jar-file-name'
+    version =  'pick-a-version-number in this format: x.y.z'
+	}
+
+settings.gradle: 
+	rootProject.name = 'FileNameWithMainFunction'
+>>>>>>> 732daba2844dc844441cb7dc84e7b654377ac927
 
 
 
