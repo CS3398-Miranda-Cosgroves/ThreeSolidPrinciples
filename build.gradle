@@ -54,13 +54,13 @@ sourceSets {
 //////////////////////////////////////////////////////////////
 //
 //      Change this assignment to reflect your own project 
-<<<<<<< HEAD
-//      mainClassName = 'threesolid.ThreeSolidMain'
-=======
+//<<<<<<< HEAD
+      mainClassName = 'threesolid.ThreeSolidMain'
+//=======
 //      mainClassName = 'package.mainClassName'
->>>>>>> 732daba2844dc844441cb7dc84e7b654377ac927
+//>>>>>>> 732daba2844dc844441cb7dc84e7b654377ac927
 //
-mainClassName = 'threesolid.ThreeSolidMain'
+//mainClassName = 'threesolid.ThreeSolidMain'
 //
 /////////////////////////////////////////////////////////////
 
