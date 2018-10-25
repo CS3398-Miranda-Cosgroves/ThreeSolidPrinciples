@@ -10,23 +10,15 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker {
 
-   private  Worker w = new Worker();
+   private Worker w = new Worker();
 	
    @Test
-   @DisplayName("No Name Test")
-   public void testWorkerWithNoName()
+   @DisplayName("Basic Test")
+   public void testWorker()
    {
-      assertEquals(w.getName(),"");
-      assertEquals(w.work(),"I'm working already!");
-   }
-
-   @Test
-   @DisplayName("With Name Test")
-   public void testWorkerWithName()
-   {
-      w.setName("Corvus Glaive");
-      assertEquals(w.getName(),"Corvus Glaive");
-      assertEquals(w.work(),"Corvus Glaive is working very hard!");
+      assertEquals(w.work(),"Doing work at a normal pace and normal quality");
+      assertEquals(w.eat(), "Eating a generic lunch");
+      assertEquals(w.sick(), "Having a generic illness");
    }
 
 }
