@@ -10,15 +10,13 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker {
 
-   private Worker w = new Worker();
+   private SuperWorker sw = new SuperWorker();
 	
-   @Test
-   @DisplayName("Basic Test")
-   public void testWorker()
+   @Test()
+   @DisplayName("newtest<JM>SuperWorker Sick Method Test")
+   public void testSuperWorkerSickMethod()
    {
-      assertEquals(w.work(),"Doing work at a normal pace and normal quality");
-      assertEquals(w.eat(), "Eating a generic lunch");
-      assertEquals(w.sick(), "Having a generic illness");
+      assertEquals(sw.sick(), "Being sick... but better than everyone else");
    }
 
 }
