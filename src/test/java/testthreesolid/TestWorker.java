@@ -19,4 +19,13 @@ public class TestWorker {
 	assertEquals(sw.sick(), "Being sick... but better than everyone else");
    }
 
+   @Test()
+   @DisplayName("newtest<JM>SuperWorkerWorkMethodFail")
+   public void testSuperWorkerWorkMethod()
+   {
+	assertEquals(sw.work(), "I'm supposed to say : Doing work the best, " +
+		"the best there ever was, the work is my true test, and burndowns " +
+                "are my cause... But I failed");
+   }
+
 }
