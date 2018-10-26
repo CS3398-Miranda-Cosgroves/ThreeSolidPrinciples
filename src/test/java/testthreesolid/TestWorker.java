@@ -16,7 +16,11 @@ public class TestWorker {
    @DisplayName("newtest<JM>SuperWorker Sick Method Test")
    public void testSuperWorkerSickMethod()
    {
-      assertEquals(sw.sick(), "Being sick... but better than everyone else");
+	if(assertEquals(sw.sick(), "Being sick... but better than everyone else")) {
+		System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+		System.out.println("\\\\\\\\\\\\THE TEST PASSED!!!\\\\\\\\\\\\");
+		System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+	}
    }
 
 }
