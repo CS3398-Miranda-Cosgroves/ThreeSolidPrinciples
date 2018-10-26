@@ -2,9 +2,20 @@ package threesolid;
 
 public class Manager extends BaseWorker{
 	
+	private String name;
+	private int salary;
+	
 	Manager() {
     }
 
+	public void setName(String person) {
+		name = person;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
     @Override
     public String work(){
 		//managing
