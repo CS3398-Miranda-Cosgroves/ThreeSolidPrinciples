@@ -51,14 +51,14 @@ sourceSets {
         resources { srcDir 'test' }
     }
 }
+
 //////////////////////////////////////////////////////////////
 //
-//      Change this assignment to reflect your own project 
-//<<<<<<< HEAD
+//      Change this assignment to reflect your own project
       mainClassName = 'threesolid.ThreeSolidMain'
 //=======
 //      mainClassName = 'package.mainClassName'
-//>>>>>>> 732daba2844dc844441cb7dc84e7b654377ac927
+//
 //
 //mainClassName = 'threesolid.ThreeSolidMain'
 //
