@@ -13,10 +13,10 @@ public class TestWorker {
    private SuperWorker sw = new SuperWorker();
 	
    @Test()
-   @DisplayName("newtest<JM>SuperWorker Sick Method Test")
+   @DisplayName("newtest<JM>SuperWorkerSickMethodPass")
    public void testSuperWorkerSickMethod()
    {
-	assertEquals(sw.sick(), "Being not sick (sick)... but better than everyone else");
+	assertEquals(sw.sick(), "Being sick... but better than everyone else");
    }
 
 }
