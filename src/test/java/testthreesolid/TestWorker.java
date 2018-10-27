@@ -17,10 +17,11 @@ public class TestWorker {
    @DisplayName("Not Null Name Test -- PASS")
    public void testWorkerWithNameNotNulll()
    {
-      w.setName("Steamboat Garrison");
+      w.setName("Steamboat McGarrison");
       assertNotNull(w.getName(),"Steamboat Garrison");
       assertEquals(w.work(),"Doing work at a normal pace and normal quality");
    }
+   
 	
 	
    @Test
