@@ -12,13 +12,24 @@ public class TestWorker {
 
    private Worker w = new Worker();
 	
+	
    @Test
-   @DisplayName("Basic Test")
-   public void testWorker()
+   @DisplayName("Not Null Name Test -- PASS")
+   public void testWorkerWithNameNotNulll()
    {
+      w.setName("Steamboat Garrison");
+      assertNotNull(w.getName(),"Steamboat Garrison");
       assertEquals(w.work(),"Doing work at a normal pace and normal quality");
-      assertEquals(w.eat(), "Eating a generic lunch");
-      assertEquals(w.sick(), "Having a generic illness");
+   }
+	
+	
+   @Test
+   @DisplayName("Null Name Test -- FAIL")
+   public void testWorkerWithNameNull()
+   {
+      w.setName("Chains Jones");
+      assertNull(w.getName(),"Chains Jones");
+      assertEquals(w.work(),"Doing work at a normal pace and normal quality");
    }
 
 }
