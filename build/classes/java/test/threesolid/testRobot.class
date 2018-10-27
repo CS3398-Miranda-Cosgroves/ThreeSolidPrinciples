@@ -24,8 +24,8 @@ public class TestWorker {
 
     public void RobotsMagicallyEat() {
 
-        r.setboolean(0,true);
-        assertEquals(r.getboolean(), 0);
+        r.setboolean(0,false);
+        assertEquals(r.getboolean(), 1);
         assertEquals(r.work(), "I told you so :(");
 
     }
