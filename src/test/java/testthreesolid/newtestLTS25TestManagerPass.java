@@ -8,7 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
-public class TestManager {
+public class newtestLTS25TestManagerPass {
 
    private Manager m = new Manager();
 	

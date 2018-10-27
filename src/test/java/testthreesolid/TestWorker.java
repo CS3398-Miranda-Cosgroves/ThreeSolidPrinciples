@@ -20,5 +20,15 @@ public class TestWorker {
       assertEquals(w.eat(), "Eating a generic lunch");
       assertEquals(w.sick(), "Having a generic illness");
    }
+   
+   @Test
+   @DisplayName("2Basic")
+   public void test2w()
+   {
+		BaseWorker thingone = new BaseWorker();
+		thingone = w;
+		
+		assertSame(w,thingone);
+   }
 
 }
