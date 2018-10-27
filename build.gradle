@@ -108,7 +108,7 @@ dependencies {
 }
 // end::dependencies[]
 test {
-    //useJUnitPlatform()
+    useJUnitPlatform()
 }
 
 // tag::wrapper[]
