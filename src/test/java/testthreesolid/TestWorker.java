@@ -27,11 +27,7 @@ public class TestWorker {
    @DisplayName("Null Name Test -- FAIL")
    public void testWorkerWithNameNull()
    {
-<<<<<<< HEAD
       w.setName("Craggity Jones");
-=======
-      w.setName("Chains Jones");
->>>>>>> 4900c0720fe0479473a81a0fabc5811604fe1863
       assertNull(w.getName(),"Chains Jones");
       assertEquals(w.work(),"Doing work at a normal pace and normal quality");
    }
