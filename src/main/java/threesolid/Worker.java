@@ -16,4 +16,11 @@ class Worker extends BaseWorker implements IEat, ISick{
     public String sick(){
         return "Having a generic illness";
     }
+
+    public double checkPay()
+    {
+        int multiplier = 2;
+        double base = 50.0;
+        return base * multiplier;
+    }
 }
