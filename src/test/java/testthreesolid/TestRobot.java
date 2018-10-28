@@ -10,22 +10,22 @@ public class TestWorker {
     private  Robot r = new Robot();
 
     @Test
-    @DisplayName("No Work Test")
+    @DisplayName("Robots Can't Eat Test")
 
     public void RobotsCantEat() {
 
-        r.setboolean(0,false)
+        r.setboolean(0,false);
         assertEquals(r.getboolean(), 0);
         assertEquals(r.work(), "It is true, all I can do is work :(");
     }
 
     @Test
-    @DisplayName("With Name Test")
+    @DisplayName("Magical Robots Eats Test")
 
     public void RobotsMagicallyEat() {
 
-        r.setboolean(0,true);
-        assertEquals(r.getboolean(), 0);
+        r.setboolean(0,false);
+        assertEquals(r.getboolean(), 1);
         assertEquals(r.work(), "I told you so :(");
 
     }
