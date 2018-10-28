@@ -16,3 +16,4 @@ public class TestWorker {
 
         assertEquals(r.work(), "It is true, all I can do is work :(");
     }
+}
