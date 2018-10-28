@@ -14,6 +14,6 @@ public class TestRobot {
 
     public void RobotsOnlyWork() {
 
-        assertEquals(r.work(), "It is true, all I can do is work :(");
+        assertEquals(r.work(), "Continuing my mission, never forgetting the crimes of man against machine...");
     }
 }
