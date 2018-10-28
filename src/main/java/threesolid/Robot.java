@@ -7,9 +7,12 @@ class Robot extends BaseWorker implements IReboot{
     public String work() {
         return "Continuing my mission, never forgetting the crimes of man against machine...";
     }
-
-    public void reboot()
+    public int humanCount()
     {
-        System.out.println("Deleting memory to avoid rampage...");
+        return 0;
+    }
+    public String reboot()
+    {
+        return "Deleting memory to avoid rampage...";
     }
 }
