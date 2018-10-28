@@ -12,21 +12,7 @@ public class TestWorker {
     @Test
     @DisplayName("Robots Can't Eat Test")
 
-    public void RobotsCantEat() {
+    public void RobotsOnlyWork() {
 
-        r.setboolean(0,false);
-        assertEquals(r.getboolean(), 0);
         assertEquals(r.work(), "It is true, all I can do is work :(");
     }
-
-    @Test
-    @DisplayName("Magical Robots Eats Test")
-
-    public void RobotsMagicallyEat() {
-
-        r.setboolean(0,false);
-        assertEquals(r.getboolean(), 1);
-        assertEquals(r.work(), "I told you so :(");
-
-    }
-}
